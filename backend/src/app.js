@@ -14,4 +14,4 @@ app.use(errors());
  * request.params => quando a rota possui variaveis não nomeadas ou dá forma url amigavel ex: localhost:3333/users/1
  * request.body => quando as variaveis são passado via post ou put e não constam na rota
  */
-app.listen(3333);
+module.exports = app;
